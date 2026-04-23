@@ -48,3 +48,4 @@ Scriptet skapar filen `data/processed/scores.csv`.
 - `notebooks/01_quickstart.ipynb` for grundflode med import, analys och export.
 - `notebooks/02_eda_visualisering.ipynb` for EDA med histogram, boxplot och sammanstallning.
 - `notebooks/03_data_cleaning.ipynb` for data cleaning: saknade varden, dubbletter, typkonvertering och outlier-filtrering.
+- `notebooks/04_feature_engineering_model.ipynb` for feature engineering, modelltraning och utvardering.
