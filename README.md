@@ -28,6 +28,12 @@ pip install -r requirements.txt
 python -m src.main
 ```
 
+5. Starta Jupyter Notebook (valfritt):
+
+```powershell
+jupyter notebook
+```
+
 Scriptet skapar filen `data/processed/scores.csv`.
 
 ## Struktur
@@ -36,3 +42,8 @@ Scriptet skapar filen `data/processed/scores.csv`.
 - `data/raw/` ar for indata (ignoreras i Git).
 - `data/processed/` ar for bearbetad data (ignoreras i Git).
 - `notebooks/` ar for Jupyter-notebooks.
+
+## Notebooks
+
+- `notebooks/01_quickstart.ipynb` for grundflode med import, analys och export.
+- `notebooks/02_eda_visualisering.ipynb` for EDA med histogram, boxplot och sammanstallning.
